@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Bitter', serif;
+}
+.nav{
+    position: sticky;
+}
+.text1{
+    height: 200px;
+    font-size: 150px;
+    color: rgb(241, 202, 183);
+}
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    perspective: 10px;
+
+}
+.container{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    transform-style: preserve-3d;
+    height: 100%;
+    z-index: -1;
+}
+.bckgrnd{
+    transform: translateZ(-40px) scale(5);
+}
+.forgrnd{
+    transform: translateZ(-10px) scale(2);
+}
+.bckgrnd,.forgrnd{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.bg{
+    position: relative;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    margin-top: -20px;
+}
+.bg1{
+    background-image: url(sport-1.jpg);
+    
+}
+.bg2{
+    background-image: url(sport-2.webp);
+}
+.bg3{
+    background-image: url(sports-3.jpg);
+}
+.bg4{
+    background-image: url(https://mediaim.expedia.com/localexpert/382522/7eeb9583-5dec-44c3-ab3b-2182e3e16fd5.jpg);
+}
+.bg5{
+    background-image: url(https://www.cumulusoutdoors.com/wp-content/uploads/2019/09/KMC-kayaking.jpg);
+}
+.bg6{
+    background-image: url(https://d3rr2gvhjw0wwy.cloudfront.net/uploads/activity_galleries/133/2000x2000-0-70-691282622f2107356b42a0e9cacfcd1a.jpg);
+}
+.text,.Secheading{
+    background-color: rgb(53, 51, 55);
+    color: white;
+    text-align:left;
+    padding: 30px;
+    margin-top: -14px;
+}
+.Secheading{
+    margin-top: 10px;
+}
+
+.heading{
+    position: relative;
+    height: 35px;
+    width: 170px;
+    text-align: center;
+    top: 160px;
+    left: 45%;
+    background-color: aliceblue;
+    color: black;
+}
+.heading2,.heading6{
+    height: 70px;
+    width: 160px;
+}
